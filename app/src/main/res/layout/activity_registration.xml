@@ -176,20 +176,21 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:paddingStart="20dp"
-        android:layout_weight="0.5"
-        android:text="Don't have an account?">
+        android:layout_weight="0.7"
+        android:text="Do you have an account?">
 
     </TextView>
 
     <Button
         android:layout_width="0dp"
+        android:id="@+id/LoginButton"
         android:layout_height="wrap_content"
         android:text="Login"
         android:textSize="20dp"
         android:layout_marginEnd="60dp"
         android:background="#00FFFFFF"
         android:textColor="#DB3D91"
-        android:layout_weight="0.25"></Button>
+        android:layout_weight="0.3"></Button>
 
 
 </LinearLayout>
